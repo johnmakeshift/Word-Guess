@@ -43,7 +43,18 @@ var arrayLength = wordSelection.length;
 var randomWord = wordSelection[Math.floor(Math.random()*arrayLength)];
 //getting the character length of the selected word
 var wordLength = randomWord.length;
-var hiddenLetters =("_");
+//created a field for hidden letters
+var hiddenLetter =("_ ");
+//creating the empty fields based on the length of the words
+for (i = 0; i < wordLength; i++) { document.write (hiddenLetter)
+
+};
+    
+
+
+//console.log to test what the vars are doing
 console.log(arrayLength);
 console.log(randomWord);
 console.log(wordLength);
+
+
