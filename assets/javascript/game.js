@@ -47,4 +47,3 @@ var hiddenLetters =("_");
 console.log(arrayLength);
 console.log(randomWord);
 console.log(wordLength);
-// console.log(hiddenLetters*wordLength);
