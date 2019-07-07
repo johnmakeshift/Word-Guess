@@ -41,14 +41,18 @@ var arrayLength = wordSelection.length;
 // var wordLength = wordChoice.length
 //creates a var for the random numner that is maxed out for the array length var...works
 var randomWord = wordSelection[Math.floor(Math.random()*arrayLength)];
+
 //getting the character length of the selected word
 var wordLength = randomWord.length;
+
 //created a field for hidden letters
 var hiddenLetter =("_ ");
-//creating the empty fields based on the length of the words
-for (i = 0; i < wordLength; i++) { document.write (hiddenLetter)
 
-};
+//creating the empty fields based on the length of the words
+for (i = 0; i < wordLength; i++) { document.write (hiddenLetter)};
+
+
+
     
 
 
@@ -56,5 +60,3 @@ for (i = 0; i < wordLength; i++) { document.write (hiddenLetter)
 console.log(arrayLength);
 console.log(randomWord);
 console.log(wordLength);
-
-
