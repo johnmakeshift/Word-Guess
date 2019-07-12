@@ -1,4 +1,3 @@
-
 // setting up the var as words
 var wordSelection = ["Car1","Car2",
 "Dog1","Dog2",
