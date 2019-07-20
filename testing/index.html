@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+
+    // setting up the var as words
+var wordSelection = ["Car1","Car2",
+"Dog1","Dog2",
+"cat1","cat2",
+"color1","color2",
+"shape1","shape2","borrow",
+"motif",
+'entry',
+"organize",
+"ground",
+"Member",
+"limit",
+"quarter",
+"hot",
+"archive",
+"quotation",
+"remain",
+"temporary",
+"fun",
+"absolute",
+"fault",
+"white",
+"marble",
+"Ranch",
+"deliver",
+"shorts",
+"bishop"];
+
+// setting up the var to find the array length.... works
+var arrayLength = wordSelection.length;
+
+//creates a var for the random numner that is maxed out for the array length var...works
+var randomWord = wordSelection[Math.floor(Math.random()*arrayLength)];
+
+//getting the character length of the selected word
+var wordLength = randomWord.length;
+
+//created a field for hidden letters
+var hiddenLetter =("_ ");
+//breaking down "random word" into an array of its characters
+ for (var splitWord = 0; splitWord < randomWord.length; splitWord++) {
+    console.log(randomWord.charAt(splitWord));
+}
+// var splitWord = randomWord.split(" ",wordLength);
+//creating the empty fields based on the length of the words
+for (i = 0; i < wordLength; i++) { document.write (hiddenLetter)};
+
+//console.log to test what the vars are doing
+console.log(arrayLength);
+console.log(randomWord);
+console.log(wordLength);
+// console.log(splitWord);
+// console.log(splitWord.length);
+// console.log(randomWord.charAt(splitWord));
+
+
+
+      </script>  
+
+
+
+
+</body>
+</html>
