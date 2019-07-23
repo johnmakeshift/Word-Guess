@@ -48,6 +48,8 @@ var wordLength = randomWord.length;
 
 //created a field for hidden letters
 var hiddenLetter =("_ ");
+//created blank array
+var wordSplit = [];
 //breaking down "random word" into an array of its characters
  for (var splitWord = 0; splitWord < randomWord.length; splitWord++) {
     console.log(randomWord.charAt(splitWord));
@@ -55,12 +57,12 @@ var hiddenLetter =("_ ");
 // var splitWord = randomWord.split(" ",wordLength);
 //creating the empty fields based on the length of the words
 for (i = 0; i < wordLength; i++) { document.write (hiddenLetter)};
-
+var splitWord = randomWord.split('');
 //console.log to test what the vars are doing
 console.log(arrayLength);
 console.log(randomWord);
 console.log(wordLength);
-// console.log(splitWord);
+console.log(splitWord);
 // console.log(splitWord.length);
 // console.log(randomWord.charAt(splitWord));
 
