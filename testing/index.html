@@ -54,24 +54,25 @@ var wordSplit = [];
  for (var splitWord = 0; splitWord < randomWord.length; splitWord++) {
     console.log(randomWord.charAt(splitWord));
 }
-// var splitWord = randomWord.split(" ",wordLength);
+
 //creating the empty fields based on the length of the words
 for (i = 0; i < wordLength; i++) { document.write (hiddenLetter)};
 var splitWord = randomWord.split('');
+
+// document.getElementById("h1").innerHTML = "New text!";
 //console.log to test what the vars are doing
 console.log(arrayLength);
 console.log(randomWord);
 console.log(wordLength);
 console.log(splitWord);
-// console.log(splitWord.length);
-// console.log(randomWord.charAt(splitWord));
 
 
 
       </script>  
+<h1 id= letters></h1>
+<br>
+<br>
 
-
-
-
+<input type="button" value="Refresh Page" onClick="location.href=location.href">
 </body>
 </html>
